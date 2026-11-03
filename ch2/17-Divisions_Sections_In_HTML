@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Divisions and Sections in HTML</title>
+ <link rel="stylesheet" type="text/css" href="../includes/css/stylesheet.css">
+<script src="../includes/javascript/javascript.js"></script>
+</head>
+
+<body>
+<header></header>
+<nav> <!-- Navigation Section -->
+ <ul>
+    <a href="./index.html">Chapter 02 Homepage</a>
+
+ </ul>
+ </nav>
+ 
+<section> <!-- main body portion of site -->
+
+<div id="header">
+ <img src="../img/persona 3 reload.gif" alt="Persona 3 Reload animation">
+ <ul>
+    <li><a href="company.html">"Home"</a></li>
+    <li><a href="products.html">"Products"</a></li>
+    <li><a href="services.html">"Services"</a></li>
+    <li><a href="contact.html">"Contact"</a></li>
+ </ul>
+</div> <!-- End of header div -->
+
+<div id="content">
+  <h3>Welcome</h3>
+  <p>This is a Reload GIF content section of business solutions.</p>
+</div> <!-- End of content -->
+
+<div id="sidebar">
+  <p>Copyright &copy; ©ATLUS ©SEGA </p>
+
+</div> <!-- End of footer -->
+</section>
+
+<footer> 
+<nav> <!-- This is the site map -->
+ <ul>
+ <a href="./index.html">Chapter 02 Homepage</a>
+ </ul>
+ </nav>
+</footer>
+</body>
+
+</html>
